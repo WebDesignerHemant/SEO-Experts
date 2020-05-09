@@ -1,0 +1,336 @@
+/* CSS Document */
+
+* {
+	margin: 0 auto;
+	padding: 0;
+	font-family: sans-serif;
+	list-style-type: none;	
+	text-decoration-line: none;
+	line-height: 1.2;
+}
+
+.container {
+	width: 100%;
+	height: auto;
+	background: #100c09 url(../images/background/BackgroundEffect.png) no-repeat top center;
+}
+
+.header {
+	padding-top: 40px;
+}
+
+.mobileBtn {
+	width: 100px;
+	height: 100px;
+	border: 3px solid #ffffff;
+	margin-left: 80%;
+	border-radius: 8px;
+	position: absolute;
+	top: 50px;
+}
+
+.lines {
+	width: 80%;
+	height: 6px;
+	background-color: #ffffff;
+    margin: 19px 0 15px 9px;
+}
+
+.nav {
+	display: none;
+}
+
+.heroImage {
+	width: 95%;
+	height: 30vw;
+	background: url(../images/background/Spotlight.png) no-repeat top center;
+	margin-top: -7px;
+	background-size: 55%;
+}
+
+.mobileIcon {
+	background: url(../images/background/Logo.png) no-repeat top left;	
+	width: 80%;
+	height: 120px;
+	text-indent: -9999px;
+	display: inline-block;
+	margin-left: 50px;
+	background-size: 60%;
+}
+
+.desktopIcon {
+	display: none;
+}
+
+.main {
+	width: 85%;
+}
+
+.whiteSection {
+	background: #ffffff;
+	border-radius: 10px;
+	padding: 3%;
+	position: relative;
+	z-index: 102;
+}
+
+.greySection {
+	background-color: #eeeeee;
+	border-radius: 10px;
+	padding-top: 13px;
+	margin-bottom: 15px;
+}
+
+.greySection ul li {
+	width: 95%;
+	text-align: center;
+	padding-top: 32px;
+	border-bottom: 2px dashed rgba(0,0,0,0.5);
+}
+
+.greySection ul li:last-child {
+	border-bottom: none;
+}
+
+.greySectionImage {
+	margin-bottom: 16px;
+	width: 30%;
+}
+
+.greySectionHeading {
+	font-size: 40px;
+	font-weight: normal;
+	margin-bottom: 25px;
+}
+
+.greySectionParagraph {
+	font-size: 32px;
+	width: 80%;
+	color: #ae6125;
+	margin-bottom: 32px;
+	line-height: 1.5;
+}
+
+.greySectionAnchor {
+	padding: 10px 50px; 
+	background-color: #f2ecdb;
+	border: 4px solid #ffffff;
+	border-bottom: none;
+	display: inline-block;
+	border-top-left-radius: 10px;
+	border-top-right-radius: 10px;
+	font-size: 44px;
+	color: #7a6154;
+}
+
+.welcomeSection,
+.newsSection {
+	padding-top: 48px;
+}
+
+.welcomeSection {
+	border-bottom: 2px dashed #000000;
+}
+
+.welcomeSection h2,
+.newsSection h2 {
+	font-weight: normal;
+	font-size: 48px;
+	color: #424242;
+	text-align: center;
+	margin-bottom: 24px;
+}
+
+.welcomeSection h2 span,
+.newsSection h2 span {
+	font-size: 48px;
+	color: #e89f39;
+}
+
+.welcomeSection h3,
+.newsSection h3 {
+	text-transform: uppercase;
+	font-size: 32px;
+	color: #7b7b7b;
+	text-align: center;
+}
+
+.welcomeSection img {
+	width: 50%;
+	display: block;
+	margin: 2.5rem auto;
+}
+
+.welcomeSection p {
+	width: 95%;
+	font-size: 40px;
+	color: #848484;
+	margin-bottom: 32px;
+	line-height: 1.5;
+}
+
+.welcomeSection p span {
+	font-weight: bold;
+	color: #ae6125;
+	font-size: 40px;
+}
+
+.welcomeSection ul {
+	padding: 0 0 48px 48px;
+}
+
+.welcomeSection ul li {
+	font-size: 32px;
+	line-height: 2.2;
+	list-style: disc; 
+	color: #b2ab94;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+	letter-spacing: 1px;
+}
+
+.newsSection ul li {
+	padding-top: 25px;
+}
+
+.newsSection ul li:first-child {
+	padding-bottom: 10px;
+	border-bottom: 3px dashed #979290;
+}
+
+.newsSection ul li h4 {
+	background: url(../images/background/CalenderIcon.png) no-repeat;
+	background-size: 8%;
+	padding: 20px 80px;
+	font-size: 32px;
+	color: #ae6125;
+	padding-top: 2px;
+}
+
+.newsSectionParagraph {
+	font-size: 32px;
+    line-height: 2.2;
+    list-style: disc;
+    color: #b2ab94;
+    text-decoration-line: underline;
+    text-underline-offset: 10px;
+    letter-spacing: 1px;
+}
+
+
+.brownSection {
+	padding: 0 8px;
+	background-color: #302621;
+	position: relative;
+	margin-top: -5px;
+}
+
+.consulting,
+.service {
+	width: 95%;
+}
+
+.consulting {
+	border-bottom: 2px dashed rgba(255,255,255,0.5);
+	padding-bottom: 55px;
+}
+
+.consulting h2,
+.service h2 {
+	font-size: 48px;
+	font-weight: normal;
+	color: #d2c9af;
+	padding: 75px 100px 0 200px;
+	height: 200px;
+}
+
+.consulting h2 {
+	background: url(../images/background/SEOConsulting.png) no-repeat left center;
+	background-size: 20%;
+}
+
+.service h2 {
+	background: url(../images/background/SEOService.png) no-repeat left center;	
+	background-size: 20%;
+}
+
+.consulting h3,
+.service h3 {
+	font-size: 32px;
+	color: #ffffff;
+	opacity: 0.5;
+	text-transform: uppercase;
+	font-weight: normal;
+	margin-top: -140px;
+    margin-bottom: 40px;
+    padding-left: 200px;
+}
+
+.consulting p {
+	font-size: 32px;
+	color: #b2ab94;
+	line-height: 1.5;
+	margin-bottom: 30px; 
+}
+
+.consulting p span {
+	font-size: 32px;
+	font-weight: bold; 
+}
+
+.consulting a {
+	background-color: #f5ab0e;
+	padding: 3px 15px;
+	color: #ffffff;
+	font-size: 36px;
+	border-radius: 7px;
+	margin-left: 60%;
+}
+
+.service p {
+	color: #ffffff;
+	font-weight: bold;
+	padding-bottom: 40px;
+	line-height: 2;
+	font-size: 32px;
+}
+
+.service p span {
+	color: #b2ab94;
+	font-weight: normal;
+	text-decoration-line: underline;
+	text-underline-offset: 10px;
+	line-height: 2;
+	font-size: 32px;
+}
+
+.footer ul {
+	width: 85%;
+    padding-top: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.footer ul li {
+	display: inline-block;
+    width: 23%;
+    padding: 16px;
+    border-bottom: 3px solid #b3ab94;
+    margin-right: 51px;
+}
+
+.footer ul li:last-child {
+	border-right: none;
+}
+
+.footerAnchor {
+	font-size: 32px;
+	color: #b3ab94;
+}
+
+.footer p {
+	text-align: center;
+	font-size: 32px;
+	color: #b3ab94;
+	padding: 48px 0;
+}
